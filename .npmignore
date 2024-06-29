@@ -1,0 +1,7 @@
+test
+node_modules
+.editorconfig
+.gitignore
+.prettierrc.toml
+pnpm-lock.yaml
+tsconfig.json

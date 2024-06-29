@@ -1,0 +1,25 @@
+{
+  "name": "result",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "test": "mocha -r tsx test/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/node": "^20.14.9",
+    "chai": "^5.1.1",
+    "mocha": "^10.5.2",
+    "prettier": "^3.3.2",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}
