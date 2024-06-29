@@ -1,7 +1,7 @@
 {
-  "name": "result",
+  "name": "ts-result",
   "version": "1.0.0",
-  "description": "",
+  "description": "A typescript library which provides rust-like result api to projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -10,9 +10,17 @@
     "format": "prettier --write \"src/**/*.ts\"",
     "test": "mocha -r tsx test/**/*.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "result",
+    "rust",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mksudo/ts-result.git"
+  },
+  "author": "mksudo",
+  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.3.16",
     "@types/node": "^20.14.9",
