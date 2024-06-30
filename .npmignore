@@ -5,3 +5,4 @@ node_modules
 .prettierrc.toml
 pnpm-lock.yaml
 tsconfig.json
+*.tgz
