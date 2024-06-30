@@ -1,6 +1,6 @@
 {
   "name": "@mksudo/ts-result",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A typescript library which provides rust-like result api to projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
